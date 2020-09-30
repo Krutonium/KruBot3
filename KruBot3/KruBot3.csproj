@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Eto.Forms" Version="2.5.2" />
+      <PackageReference Include="Eto.Platform.Gtk" Version="2.5.2" />
+      <PackageReference Include="nucs.JsonSettings" Version="1.0.7" />
+      <PackageReference Include="TwitchLib" Version="3.1.1" />
+      <PackageReference Include="TwitchLib.Api" Version="3.1.4-CI-20200622-16" />
+      <PackageReference Include="TwitchLib.Client" Version="3.1.5" />
+      <PackageReference Include="TwitchLib.Client.Enums" Version="3.1.4" />
+      <PackageReference Include="TwitchLib.Client.Models" Version="3.1.5" />
+    </ItemGroup>
+
+</Project>
